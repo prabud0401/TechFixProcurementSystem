@@ -1,0 +1,20 @@
+/Models
+│
+├── Customer.cs
+├── Supplier.cs
+├── OrderRequest.cs
+├── Quotation.cs
+├── Inventory.cs
+├── Product.cs
+├── ProductCategory.cs
+├── OrderItem.cs
+├── Payment.cs
+├── Delivery.cs
+├── UserAccount.cs
+├── OrderHistory.cs
+├── Discount.cs
+├── CustomerFeedback.cs
+├── ReturnRequest.cs
+├── SupplierReview.cs
+├── Manager.cs
+├── Staff.cs

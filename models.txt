@@ -1,0 +1,20 @@
+/Controllers
+│
+├── CustomerController.cs
+├── SupplierController.cs
+├── OrderRequestController.cs
+├── QuotationController.cs
+├── InventoryController.cs
+├── ProductController.cs
+├── ProductCategoryController.cs
+├── OrderItemController.cs
+├── PaymentController.cs
+├── DeliveryController.cs
+├── UserAccountController.cs
+├── OrderHistoryController.cs
+├── DiscountController.cs
+├── CustomerFeedbackController.cs
+├── ReturnRequestController.cs
+├── SupplierReviewController.cs
+├── ManagerController.cs
+├── StaffController.cs
