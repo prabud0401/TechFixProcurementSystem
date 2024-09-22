@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="bg-gray-900 text-white h-[100vh] flex justify-between flex-col">
+<body class="bg-gray-900 text-white h-[100vh] flex justify-between flex-col text-black">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Navbar -->

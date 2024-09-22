@@ -1,8 +1,8 @@
 <a href="./index.php" class="flex justify-start px-4 py-2 text-white  hover:bg-indigo-700 rounded-lg text-lg">
                 <i class="ri-file-add-line mr-2"></i> Dashboard
             </a>
-            <a href="./orderCreate.php" class="flex justify-start px-4 py-2 text-white hover:bg-teal-700 rounded-lg text-lg">
-                <i class="ri-file-add-line mr-2"></i> Create New Order Request
+            <a href="./orderCart.php" class="flex justify-start px-4 py-2 text-white hover:bg-teal-700 rounded-lg text-lg">
+                <i class="ri-file-add-line mr-2"></i> View Cart
             </a>
             <a href="./quotationView.php" class="flex justify-start px-4 py-2 text-white hover:bg-green-700 rounded-lg text-lg">
                 <i class="ri-file-list-2-line mr-2"></i> View Quotations
