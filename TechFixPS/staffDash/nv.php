@@ -4,7 +4,7 @@
             <a href="./manageProducts.php" class="flex justify-start px-4 py-2 text-white hover:bg-teal-700 rounded-lg text-lg">
                 <i class="ri-file-add-line mr-2"></i> Manage Products
             </a>
-            <a href="./orderCreate.php" class="flex justify-start px-4 py-2 text-white hover:bg-teal-700 rounded-lg text-lg">
+            <a href="../index.php" class="flex justify-start px-4 py-2 text-white hover:bg-teal-700 rounded-lg text-lg">
                 <i class="ri-file-add-line mr-2"></i> Create New Order
             </a>
             <a href="./quotationView.php" class="flex justify-start px-4 py-2 text-white hover:bg-green-700 rounded-lg text-lg">

@@ -18,6 +18,6 @@ namespace TechFixOrderManagementSystemAPI.Services
         public DbSet<Category> Categories { get; set; } // Changed to 'Categories' for consistency
         public DbSet<Cart> Carts { get; set; } // Added Cart DbSet for cart management
         public DbSet<QuotationRequest> QuotationRequests { get; set; } // Added QuotationRequest DbSet
-
+        public DbSet<OrderRequest> OrderRequests { get; set; } // Added OrderRequest DbSet
     }
 }

@@ -1,0 +1,3 @@
+"Product ID","Product Name",Price,"Category Code","Cart ID","Quotation Code",Quantity,"Is Urgent","Added At","Total Price"
+5,"LG OLED TV 55 Inch",1499.99,ELEC,46,314881300149,1,No,2024-09-23T20:01:30,1499.99
+1,"Dell Optiplex 790 Desktop Computer",499.99,COMP,47,314881300149,1,No,2024-09-23T20:01:34,499.99

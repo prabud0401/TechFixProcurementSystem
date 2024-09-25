@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechFixOrderManagementSystemAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9639845a40863b06801c081334a6657cb812261")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5adfb27b31a0e430226ddbd6878fe1374ea02547")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechFixOrderManagementSystemAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechFixOrderManagementSystemAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,9 +8,14 @@ if (!isset($_SESSION['customerID'])) {
     exit();
 }
 // Check if quotationCode is already set in the session
-if (!isset($_SESSION['quotationCode'])) {
-    $_SESSION['quotationCode'] = generateQuotationCode(); // Generate only once per session
+if (isset($_SESSION['quotationCode'])) {
+    // Unset the existing quotationCode
+    unset($_SESSION['quotationCode']);
 }
+
+// Generate a new quotationCode and store it in the session
+$_SESSION['quotationCode'] = generateQuotationCode(); // Generate new quotationCode
+
 // Generate a random 12-digit code
 function generateQuotationCode() {
     return str_pad(mt_rand(0, 999999999999), 12, '0', STR_PAD_LEFT);

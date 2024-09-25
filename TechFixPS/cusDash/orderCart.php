@@ -234,10 +234,48 @@ function postQuotationRequest($apiUrl, $quotationCode, $customerID, $quotationRe
         return ['error' => "Unexpected response from the server: $httpcode"];
     }
 }
+// Function to send OrderRequest data to the API
+function sendOrderRequestToApi($apiUrl, $orderRequestData) {
+    // Initialize a cURL session
+    $ch = curl_init($apiUrl);
+    
+    // Set cURL options
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($orderRequestData)); // Convert data to JSON
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json',
+        'Accept: application/json'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Disable SSL verification for localhost if needed
+
+    // Execute the request and get the response
+    $response = curl_exec($ch);
+
+    // Check for any errors during the request
+    if (curl_errno($ch)) {
+        return ['error' => "Error: " . curl_error($ch)];
+    }
+
+    // Get the HTTP status code of the response
+    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+    // Close the cURL session
+    curl_close($ch);
+
+    // Handle the response based on the status code
+    if ($httpcode == 201 || $httpcode == 200) {
+        return json_decode($response, true); // Return the response if successful
+    } else {
+        return ['error' => "Unexpected response from the server: HTTP $httpcode"];
+    }
+}
+
+// After generating the CSV file, store cart rows and then delete them
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_quotation_request'])) {
     // Get the inputs from the form
     $quotationCode = $_POST['quotationCode'];
-    $customerID = $_SESSION['customerID'];  // Assuming customerID is stored in the session
+    $customerID = $_SESSION['customerID'];
     $quotationRequestNote = $_POST['quotationRequestNote'];
 
     // Call the function to send the quotation request
@@ -245,12 +283,99 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_quotation_requ
     $result = postQuotationRequest($apiUrl, $quotationCode, $customerID, $quotationRequestNote);
 
     if (isset($result['error'])) {
-        $errorMessage = $result['error'];  // Handle error
+        $errorMessage = $result['error'];
     } else {
         $successMessage = "Quotation request submitted successfully!";
-        $deleteResult = deleteCartsByQuotationCode($quotationCode);
+        
+        // Generate the CSV file
+        $csvFilePath = createCSV($quotationCode, $cartData, $productDetails);
+
+        // Loop through cartData, post each cart to the OrderRequest API, and then delete
+        foreach ($cartData as $cart) {
+            // Prepare data for API
+            $orderRequestData = [
+                "quotationCode" => $cart['quotationCode'],
+                "customerID" => $customerID,
+                "newProductID" => $cart['newProductID'],
+                "productName" => $productDetails[$cart['newProductID']]['name'],
+                "price" => $productDetails[$cart['newProductID']]['price'],
+                "categoryCode" => $productDetails[$cart['newProductID']]['categoryCode'],
+                "quantity" => $cart['quantity'],
+                "isUrgent" => $cart['isUrgent'],
+                "addedAt" => $cart['addedAt']
+            ];
+
+            // Call function to send OrderRequest data to API
+            $sendOrderResult = sendOrderRequestToApi($apiUrl . '/OrderRequest', $orderRequestData);
+
+            if (isset($sendOrderResult['error'])) {
+                $errorMessage = $sendOrderResult['error'];
+                break;
+            } else {
+                // If successful, delete the cart
+                $cartID = $cart['cartID'];
+                $deleteResult = deleteByID($apiUrl, $cartID, 'Cart'); // Call the delete function for each cartID
+                if (isset($deleteResult['error'])) {
+                    $errorMessage = $deleteResult['error'];
+                    break;
+                }
+            }
+        }
+
+        // Check if all carts were successfully processed and deleted or handle any errors
+        if (isset($errorMessage)) {
+            echo "<div class='text-red-500 text-center mb-4'>Error processing cart items: $errorMessage</div>";
+        } else {
+            // Display a success message with the link to download the CSV file
+            $csvDownloadLink = "<a href='" . $csvFilePath . "' download>Download CSV</a>";
+            echo "<div class='text-green-500 text-center mb-4'>Quotation request submitted and cart processed successfully! $csvDownloadLink</div>";
+
+            // Refresh the page after operations are complete
+            header("Location: " . $_SERVER['PHP_SELF']);
+            exit();
+        }
     }
 }
+
+
+// Generic deleteByID function to delete an entry by its ID from any API endpoint
+function deleteByID($apiUrl, $id, $endpoint) {
+    // Construct the full URL by appending the endpoint and ID
+    $url = $apiUrl . "/" . $endpoint . "/" . $id;
+
+    // Initialize cURL session
+    $ch = curl_init($url);
+
+    // Set options for the cURL session
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: application/json']);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Disable SSL verification for localhost
+
+    // Execute the cURL request
+    $response = curl_exec($ch);
+
+    // Check if there was an error during the request
+    if (curl_errno($ch)) {
+        return ['error' => "Error deleting entry with ID: $id - " . curl_error($ch)];
+    }
+
+    // Get the HTTP status code of the response
+    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+    // Close the cURL session
+    curl_close($ch);
+
+    // Handle the response based on the status code
+    if ($httpcode != 200) {
+        return ['error' => "Failed to delete entry with ID: $id. HTTP status code: $httpcode"];
+    }
+
+    // If the deletion was successful
+    return ['success' => "Entry with ID: $id deleted successfully!"];
+}
+
+
 
 // Function to delete carts by quotationCode
 function deleteCartsByQuotationCode($quotationCode) {
@@ -288,6 +413,40 @@ function deleteCartsByQuotationCode($quotationCode) {
     } else {
         return ['error' => "Unexpected response from the server: $httpcode"];
     }
+}
+// Function to create a CSV file from the cart and product data
+function createCSV($quotationCode, $cartData, $productDetails) {
+    // Define the path where the CSV file will be saved
+    $filePath = "./csv/" . $quotationCode . ".csv";
+
+    // Open the file in write mode
+    $file = fopen($filePath, 'w');
+
+    // Add the headers to the CSV
+    $headers = ['Product ID', 'Product Name', 'Price', 'Category Code', 'Cart ID', 'Quotation Code', 'Quantity', 'Is Urgent', 'Added At', 'Total Price'];
+    fputcsv($file, $headers);
+
+    // Loop through cart data and add rows to the CSV
+    foreach ($cartData as $cart) {
+        $productID = $cart['newProductID'];
+        $productName = $productDetails[$productID]['name'];
+        $price = $productDetails[$productID]['price'];
+        $categoryCode = $productDetails[$productID]['categoryCode'];
+        $cartID = $cart['cartID'];
+        $quotationCode = $cart['quotationCode'];
+        $quantity = $cart['quantity'];
+        $isUrgent = $cart['isUrgent'] ? 'Yes' : 'No';
+        $addedAt = $cart['addedAt'];
+        $totalPrice = $price * $quantity;
+
+        // Write data to the CSV
+        fputcsv($file, [$productID, $productName, $price, $categoryCode, $cartID, $quotationCode, $quantity, $isUrgent, $addedAt, $totalPrice]);
+    }
+
+    // Close the file
+    fclose($file);
+    
+    return $filePath;
 }
 
 // Include header
@@ -410,7 +569,7 @@ include("../includes/header.php");
         </ul>
         <!-- Input for Note -->
         <form method="POST">
-            <textarea name="quotationRequestNote" class="w-full border border-gray-300 rounded-lg p-2 mb-4" placeholder="Add a note..."></textarea>
+            <textarea name="quotationRequestNote" class="w-full border border-gray-300 rounded-lg p-2 mb-4" placeholder="Add a note.*with Contact No:." required></textarea>
             <input type="hidden" name="quotationCode" value="<?php echo $quotationCode; ?>">
             <div class="flex justify-between">
                 <button class="bg-red-500 text-white px-4 py-2 rounded" onclick="closeModal()">Close</button>
