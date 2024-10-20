@@ -3,30 +3,67 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\quotationsummarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\quotationsummarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\quotationsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\quotationsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20241006052043_newre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241006052043_newre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\quotationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\quotationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\orderrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\orderrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\migrations\\20240922150459_cartnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:migrations\\20240922150459_cartnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\migrations\\20240922180438_quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:migrations\\20240922180438_quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\migrations\\20240923163208_orderreqstt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:migrations\\20240923163208_orderreqstt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\quotationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\quotationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prabu\\AppData\\Local\\Temp\\yfi5m0f1..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Managers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Staff.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240923163208_orderReqstt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240923163208_orderReqstt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240923162935_orderReqst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240923162935_orderReqst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,16 +74,53 @@
       "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\newproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\newproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\newproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\newproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Suppliers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\newproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\newproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prabu\\AppData\\Local\\Temp\\yfi5m0f1..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Managers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240923162935_orderReqst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240923162935_orderReqst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\sqlquery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
@@ -83,28 +157,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240922074904_Sup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240922070402_Manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240922070402_Manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\sqlquery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
@@ -123,27 +181,8 @@
       "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:sqlquery5.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\migrations\\20240922180438_quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:migrations\\20240922180438_quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\sqlquery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
       "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:sqlquery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|c:\\xampp\\htdocs\\techfixprocurementsystem\\techfixprocurementsystemapi\\techfixordermanagementsystemapi\\migrations\\20240922150459_cartnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712417B1-82F0-48AD-8018-9087BCFD3115}|TechFixOrderManagementSystemAPI.csproj|solutionrelative:migrations\\20240922150459_cartnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\OrderRequestController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\OrderRequestController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\OrderRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\OrderRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prabu\\AppData\\Local\\Temp\\yfi5m0f1..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -153,45 +192,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.Managers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Managers.sql",
-              "ToolTip": "dbo.Managers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-24T14:18:20.996Z",
+              "Title": "20241006052043_newre.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20241006052043_newre.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241006052043_newre.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20241006052043_newre.cs",
+              "RelativeToolTip": "Migrations\\20241006052043_newre.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T05:20:43.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "yfi5m0f1..sql ",
+              "DocumentIndex": 0,
+              "Title": "QuotationSummaryController.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\QuotationSummaryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuotationSummaryController.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\QuotationSummaryController.cs",
+              "RelativeToolTip": "Controllers\\QuotationSummaryController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T05:19:43.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuotationSummary.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\QuotationSummary.cs",
+              "RelativeDocumentMoniker": "Models\\QuotationSummary.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\QuotationSummary.cs",
+              "RelativeToolTip": "Models\\QuotationSummary.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T05:17:23.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T03:56:29.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T03:54:49.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Staff.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Staff.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Staff.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-29T09:36:46.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "Controllers\\StaffController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T09:35:31.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\Staff.cs",
+              "RelativeDocumentMoniker": "Models\\Staff.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\Staff.cs",
+              "RelativeToolTip": "Models\\Staff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T09:35:09.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dbo.Suppliers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Suppliers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Suppliers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-29T09:24:32.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T09:04:22.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T17:23:52.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "dbo.Managers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Managers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Managers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-24T14:18:20.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "yfi5m0f1..sql",
               "DocumentMoniker": "C:\\Users\\prabu\\AppData\\Local\\Temp\\yfi5m0f1..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\prabu\\AppData\\Local\\Temp\\yfi5m0f1..sql",
-              "ToolTip": "yfi5m0f1..sql ",
+              "ToolTip": "C:\\Users\\prabu\\AppData\\Local\\Temp\\yfi5m0f1..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\prabu\\AppData\\Local\\Temp\\yfi5m0f1..sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-24T14:13:00.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T14:13:00.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "20240923163208_orderReqstt.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240923163208_orderReqstt.cs",
               "RelativeDocumentMoniker": "Migrations\\20240923163208_orderReqstt.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240923163208_orderReqstt.cs",
               "RelativeToolTip": "Migrations\\20240923163208_orderReqstt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T16:32:08.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 29,
               "Title": "20240923162935_orderReqst.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240923162935_orderReqst.cs",
               "RelativeDocumentMoniker": "Migrations\\20240923162935_orderReqst.cs",
@@ -203,31 +372,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 5,
               "Title": "OrderRequestController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\OrderRequestController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderRequestController.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\OrderRequestController.cs",
               "RelativeToolTip": "Controllers\\OrderRequestController.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAUwI8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T16:28:09.998Z"
+              "WhenOpened": "2024-09-23T16:28:09.998Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 6,
               "Title": "OrderRequest.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\OrderRequest.cs",
               "RelativeDocumentMoniker": "Models\\OrderRequest.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\OrderRequest.cs",
               "RelativeToolTip": "Models\\OrderRequest.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T16:26:13.694Z"
+              "WhenOpened": "2024-09-23T16:26:13.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 45,
               "Title": "SQLQuery5.sql",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\SQLQuery5.sql",
               "RelativeDocumentMoniker": "SQLQuery5.sql",
@@ -238,45 +409,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 8,
               "Title": "20240922180438_Quotation.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240922180438_Quotation.cs",
               "RelativeDocumentMoniker": "Migrations\\20240922180438_Quotation.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240922180438_Quotation.cs",
               "RelativeToolTip": "Migrations\\20240922180438_Quotation.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T18:04:38.81Z"
+              "WhenOpened": "2024-09-22T18:04:38.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "QuotationRequestController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\QuotationRequestController.cs",
               "RelativeDocumentMoniker": "Controllers\\QuotationRequestController.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\QuotationRequestController.cs",
               "RelativeToolTip": "Controllers\\QuotationRequestController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAuwIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T18:03:28.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "QuotationRequest.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\QuotationRequest.cs",
               "RelativeDocumentMoniker": "Models\\QuotationRequest.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\QuotationRequest.cs",
               "RelativeToolTip": "Models\\QuotationRequest.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T18:00:19.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "SQLQuery4.sql",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\SQLQuery4.sql",
               "RelativeDocumentMoniker": "SQLQuery4.sql",
@@ -287,19 +459,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 7,
               "Title": "20240922150459_cartnew.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240922150459_cartnew.cs",
               "RelativeDocumentMoniker": "Migrations\\20240922150459_cartnew.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240922150459_cartnew.cs",
               "RelativeToolTip": "Migrations\\20240922150459_cartnew.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAALkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAiwLkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:05:00.026Z"
+              "WhenOpened": "2024-09-22T15:05:00.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 31,
               "Title": "SQLQuery3.sql",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\SQLQuery3.sql",
               "RelativeDocumentMoniker": "SQLQuery3.sql",
@@ -310,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 32,
               "Title": "SQLQuery2.sql",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\SQLQuery2.sql",
               "RelativeDocumentMoniker": "SQLQuery2.sql",
@@ -321,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 33,
               "Title": "dbo.NewProducts.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.NewProducts.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.NewProducts.sql",
@@ -330,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 34,
               "Title": "dbo.Customers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Customers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/PRABUD0401_SQLEXPRESS/TechFixOrderManagement/True/SqlTable/dbo.Customers.sql",
@@ -339,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 35,
               "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "SQLQuery1.sql",
@@ -350,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 36,
               "Title": "20240922145051_cartt.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240922145051_cartt.cs",
               "RelativeDocumentMoniker": "Migrations\\20240922145051_cartt.cs",
@@ -362,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 37,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
@@ -374,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 38,
               "Title": "20240922133148_cart.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240922133148_cart.cs",
               "RelativeDocumentMoniker": "Migrations\\20240922133148_cart.cs",
@@ -386,55 +559,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Controllers\\CartController.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\CartController.cs",
               "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAswJMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T13:31:20.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Models\\Cart.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\Cart.cs",
               "RelativeToolTip": "Models\\Cart.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T13:25:27.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "NewProduct.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\NewProduct.cs",
               "RelativeDocumentMoniker": "Models\\NewProduct.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\NewProduct.cs",
               "RelativeToolTip": "Models\\NewProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T13:23:20.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "NewProductController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\NewProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\NewProductController.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\NewProductController.cs",
               "RelativeToolTip": "Controllers\\NewProductController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T11:59:16.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 39,
               "Title": "20240922074904_Sup.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240922074904_Sup.cs",
               "RelativeDocumentMoniker": "Migrations\\20240922074904_Sup.cs",
@@ -451,25 +624,25 @@
               "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\SupplierController.cs",
               "RelativeToolTip": "Controllers\\SupplierController.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAYwJkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAowJkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T07:40:45.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "Supplier.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\Supplier.cs",
               "RelativeDocumentMoniker": "Models\\Supplier.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\Supplier.cs",
               "RelativeToolTip": "Models\\Supplier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T07:38:30.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 42,
               "Title": "SQLQuery6.sql",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\SQLQuery6.sql",
               "RelativeDocumentMoniker": "SQLQuery6.sql",
@@ -480,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "20240922070402_Manager.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Migrations\\20240922070402_Manager.cs",
               "RelativeDocumentMoniker": "Migrations\\20240922070402_Manager.cs",
@@ -491,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 43,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -502,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 30,
               "Title": "ManagerController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\ManagerController.cs",
               "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
@@ -514,19 +687,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAqwEwAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T06:54:17.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 44,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -537,19 +710,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Services\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Services\\ApplicationDbContext.cs",
               "ToolTip": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Services\\ApplicationDbContext.cs",
               "RelativeToolTip": "Services\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T06:52:34.336Z"
+              "WhenOpened": "2024-09-22T06:52:34.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 40,
               "Title": "Manager.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\Manager.cs",
               "RelativeDocumentMoniker": "Models\\Manager.cs",
@@ -561,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\TechFixProcurementSystem\\TechFixProcurementSystemAPI\\TechFixOrderManagementSystemAPI\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",

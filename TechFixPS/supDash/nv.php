@@ -7,11 +7,8 @@
             <a href="./quotationViewRequests.php" class="flex justify-start px-4 py-2 text-white hover:bg-green-700 rounded-lg text-lg">
                 <i class="ri-file-list-2-line mr-2"></i> View Quotations Requests
             </a>
-            <a href="./quotationView.php" class="flex justify-start px-4 py-2 text-white hover:bg-green-700 rounded-lg text-lg">
+            <a href="./quotationManage.php" class="flex justify-start px-4 py-2 text-white hover:bg-green-700 rounded-lg text-lg">
                 <i class="ri-file-list-2-line mr-2"></i> Manage Quotations
-            </a>
-            <a href="./viewOrders.php" class="flex justify-start px-4 py-2 text-white  hover:bg-yellow-700 rounded-lg text-lg">
-                <i class="ri-money-dollar-circle-line mr-2"></i> View orders
             </a>
             <a href="./manageOrders.php" class="flex justify-start px-4 py-2 text-white  hover:bg-blue-700 rounded-lg text-lg">
                 <i class="ri-history-line mr-2"></i> Manage Orders

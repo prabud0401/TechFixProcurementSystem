@@ -24,6 +24,6 @@ namespace TechFixOrderManagementSystemAPI.Models
         public string Username { get; set; }  // Unique username for login
 
         [Required]
-        public string Password { get; set; }
+        public string Password { get; set; }    
     }
 }

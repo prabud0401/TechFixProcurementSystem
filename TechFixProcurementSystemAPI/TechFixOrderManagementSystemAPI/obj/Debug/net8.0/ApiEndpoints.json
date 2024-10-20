@@ -943,6 +943,204 @@
     ]
   },
   {
+    "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.QuotationSummaryController",
+    "Method": "GetQuotationSummaries",
+    "RelativePath": "api/QuotationSummary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TechFixOrderManagementSystemAPI.Models.QuotationSummary, TechFixOrderManagementSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.QuotationSummaryController",
+    "Method": "PostQuotationSummary",
+    "RelativePath": "api/QuotationSummary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quotationSummary",
+        "Type": "TechFixOrderManagementSystemAPI.Models.QuotationSummary",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.QuotationSummaryController",
+    "Method": "GetQuotationSummary",
+    "RelativePath": "api/QuotationSummary/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TechFixOrderManagementSystemAPI.Models.QuotationSummary",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.QuotationSummaryController",
+    "Method": "PutQuotationSummary",
+    "RelativePath": "api/QuotationSummary/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "quotationSummary",
+        "Type": "TechFixOrderManagementSystemAPI.Models.QuotationSummary",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.QuotationSummaryController",
+    "Method": "DeleteQuotationSummary",
+    "RelativePath": "api/QuotationSummary/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.QuotationSummaryController",
+    "Method": "GetQuotationSummariesByCustomerID",
+    "RelativePath": "api/QuotationSummary/byCustomerID/{customerID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TechFixOrderManagementSystemAPI.Models.QuotationSummary, TechFixOrderManagementSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.QuotationSummaryController",
+    "Method": "GetQuotationSummaryByQuotationCode",
+    "RelativePath": "api/QuotationSummary/byQuotationCode/{quotationCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quotationCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TechFixOrderManagementSystemAPI.Models.QuotationSummary, TechFixOrderManagementSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.QuotationSummaryController",
+    "Method": "GetQuotationSummariesBySupplierID",
+    "RelativePath": "api/QuotationSummary/bySupplierID/{supplierID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supplierID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TechFixOrderManagementSystemAPI.Models.QuotationSummary, TechFixOrderManagementSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.QuotationSummaryController",
+    "Method": "UpdateQuotationStatus",
+    "RelativePath": "api/QuotationSummary/UpdateStatus/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TechFixOrderManagementSystemAPI.Controllers.StaffController",
     "Method": "GetStaffs",
     "RelativePath": "api/Staff",

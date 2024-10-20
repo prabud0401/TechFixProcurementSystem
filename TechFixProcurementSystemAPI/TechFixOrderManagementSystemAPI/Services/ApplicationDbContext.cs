@@ -19,5 +19,7 @@ namespace TechFixOrderManagementSystemAPI.Services
         public DbSet<Cart> Carts { get; set; } // Added Cart DbSet for cart management
         public DbSet<QuotationRequest> QuotationRequests { get; set; } // Added QuotationRequest DbSet
         public DbSet<OrderRequest> OrderRequests { get; set; } // Added OrderRequest DbSet
+        public DbSet<QuotationSummary> QuotationSummarys { get; set; } // Added QuotationSummary DbSet
+
     }
 }
